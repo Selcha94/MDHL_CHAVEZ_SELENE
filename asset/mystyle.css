@@ -33,8 +33,9 @@ nav {
 }
 
 nav a {
-    height: 4rem;
-    width: 7rem;
+    height: 3rem;
+    width: 6rem;
+    font-size: 12px;
     background-color: #F2D230;
     color: black;
     font-weight: bolder;
@@ -88,7 +89,7 @@ h2 {
 
 section div {
     width: 100%;
-    padding: 1rem;
+    margin: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -119,8 +120,19 @@ section div p {
 
 footer img {
     width: 100%;
-    height: 150px;
+    height: 200px;
     object-fit: cover;
+}
+#schedule{
+    padding: 1rem;
+}
+#schedule h3{
+    text-align: center;
+    font-size: 2rem;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.329);
+}
+#schedule p{
+    margin: 1rem;
 }
 #bg_main{
     min-height: 20vh;
@@ -138,4 +150,33 @@ table,th, td{
 }
 th{
     background-color: #F2D230;
+}
+#info{
+    padding: 1rem;
+}
+#info p{
+    margin: 1rem;
+}
+
+#main-rules{
+    text-align: center;
+    margin: 10px;
+}
+#contenedor-rules{
+    text-align: justify;
+}
+#contenedor-rules p{
+    padding: 1rem;
+}
+#boxlist{
+    margin: 1rem;
+}
+#boxlist li{
+    padding: .5rem;
+}
+#boxlist-2 ol{
+    list-style-type: upper-latin;
+}
+#boxlist-3 ul{
+    list-style: circle;
 }
