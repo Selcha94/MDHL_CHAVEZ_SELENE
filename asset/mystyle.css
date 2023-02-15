@@ -1,33 +1,38 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
-header{
+
+header {
     min-height: 8vh;
-    background-color:rgb(233, 224, 212);
+    background-color: rgb(233, 224, 212);
     padding: 1rem;
     display: flex;
     gap: 1rem;
     align-items: center;
 }
-.logo{
+
+.logo {
     width: 8vw;
 }
-h1{
+
+h1 {
     flex-grow: 1;
     font-size: 2rem;
     color: #63A69A;
     text-shadow: 2px 2px rgba(0, 0, 0, 0.492);
 
 }
-nav{
+
+nav {
     display: flex;
     gap: 0.5rem;
     flex-wrap: wrap;
 }
-nav a{
+
+nav a {
     height: 4rem;
     width: 7rem;
     background-color: #F2D230;
@@ -40,16 +45,19 @@ nav a{
     text-align: center;
     border-radius: 5px;
 }
-.active{
+
+.active {
     background-color: #BF3F34;
     color: #F2D230;
 }
-main{
+
+main {
     min-height: 90vh;
     background-color: #ffffff;
     padding: 1rem;
 }
-h2{
+
+h2 {
     text-align: center;
     font-size: 2rem;
     color: #BF3F34;
@@ -58,26 +66,27 @@ h2{
     display: block;
     background-color: #F2D230;
 }
+
 .contenedor img {
     height: 400px;
     width: 150px;
     border-radius: 2rem;
     display: flex;
     object-fit: cover;
-    flex-direction:row;
+    flex-direction: row;
     justify-content: end;
     justify-content: space-between;
     margin: .5rem;
 }
 
 
-.contenedor{
+.contenedor {
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 
-section div{
+section div {
     width: 100%;
     padding: 1rem;
     display: flex;
@@ -85,30 +94,48 @@ section div{
     justify-content: center;
     gap: 1rem;
 }
-section div h3{
+
+section div h3 {
     color: #BF3F34;
     font-weight: bolder;
     font-size: 1.5rem;
 }
 
-section div p{
+section div p {
     padding: 0.5rem;
     font-size: 1rem;
 }
 
-.contenedor-contact{
+.contenedor-contact {
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.contact p{
+
+.contact p {
     font-weight: bolder;
 }
-.contact img{
-    width: 50vh;
-}
-footer img{
+
+footer img {
     width: 100%;
     height: 150px;
     object-fit: cover;
+}
+#bg_main{
+    min-height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+table{
+    width: 100%;
+}
+table,th, td{
+    padding: 8px 6px;
+    text-align: center;
+}
+th{
+    background-color: #F2D230;
 }
