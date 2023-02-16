@@ -134,23 +134,22 @@ footer img {
 #schedule p{
     margin: 1rem;
 }
-#bg_main{
-    min-height: 20vh;
+.container-table{
+    width: 100%;
     display: flex;
-    align-items: center;
     justify-content: center;
     align-items: center;
 }
-table{
-    width: 100%;
+th,td{
+    background-color: #63A69A;
+    padding: 1rem;
 }
-table,th, td{
-    padding: 8px 6px;
+.location h3{
     text-align: center;
+    background-color:#63A69A;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.329);
 }
-th{
-    background-color: #F2D230;
-}
+
 #info{
     padding: 1rem;
 }
