@@ -66,6 +66,7 @@ h2 {
     margin-bottom: 1rem;
     display: block;
     background-color: #F2D230;
+    border-radius: 10px;
 }
 
 .contenedor img {
@@ -144,10 +145,22 @@ th,td{
     background-color: #63A69A;
     padding: 1rem;
 }
-.location h3{
+#text-maps{
     text-align: center;
-    background-color:#63A69A;
-    text-shadow: 2px 2px rgba(0, 0, 0, 0.329);
+    background-color: #BF3F34;
+    color: #F2D230;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.location{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+}
+.location iframe{
+    border-radius: 50px;
+    padding: 1rem;
 }
 
 #info{
@@ -208,3 +221,4 @@ form input{
     font-size: 30px;
     border-radius: 7px;
 }
+
