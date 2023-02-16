@@ -7,7 +7,7 @@
 
 header {
     min-height: 8vh;
-    background-color: rgb(233, 224, 212);
+    background-color: rgba(233, 224, 212, 0.699);
     padding: 1rem;
     display: flex;
     gap: 1rem;
