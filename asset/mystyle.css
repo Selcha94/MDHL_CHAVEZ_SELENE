@@ -180,3 +180,32 @@ th{
 #boxlist-3 ul{
     list-style: circle;
 }
+form{
+    padding: 1rem;
+    background-color:#63a69aa8;
+}
+form p, h3,legend,label, fieldset{
+    margin: 1rem;
+}
+form h5, span{
+    color: red;
+}
+form legend{
+    font-weight: bolder;
+}
+form input{
+    text-align: center;
+}
+.submit{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.submit input{
+    width: 15%;
+    height: 10vh;
+    background-color: #BF3F34;
+    color: #F2D230;
+    font-size: 30px;
+    border-radius: 7px;
+}
